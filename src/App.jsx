@@ -4,7 +4,7 @@ import Spinner from './components/Spinner.jsx';
 import MovieCard from './components/MovieCard.jsx';
 import { useDebounce } from 'react-use';
 
-const API_BASE_URL = 'http://www.omdbapi.com';
+const API_BASE_URL = 'https://www.omdbapi.com';
 const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
 const DEFAULT_QUERY = 'Marvel'; // Change this to any default search term
 
